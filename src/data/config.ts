@@ -1,45 +1,43 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Arielle Rosete | Computer Engineer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: `Hi! I am Arielle! I'm a Computer Engineer living in the Philippines.
+          I completed my Bachelor's Degree in Computer Engineering at Ateneo de Davao University, graduating as Magna Cum Laude.
+          I am proficient on both computer software and hardware. I have experience in web development, database management, UI/UX design, computer vision, embedded systems, microcontrollers, and PCB design.`,
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Discover the portfolio of Arielle, a computer engineer a computer engineer who loves to code, build, and design helpful systems.",
   },
   keywords: [
-    "Naresh",
+    "Arielle",
     "portfolio",
-    "full-stack developer",
-    "creative technologist",
+    "computer engineer",
+    "computer software",
+    "computer hardware",
     "web development",
-    "3D animations",
+    "database management",
+    "UI/UX design",
     "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
-    "React",
-    "Next.js",
-    "Spline",
-    "Framer Motion",
+    "embedded systems",
+    "microcontrollers",
+    "circuit design",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.dev",
+  author: "Arielle Rosete",
+  email: "ariellerosete.ar@gmail.com",
+  phone: "(+63) 919-099-8798", 
+  site: "https://ariellerosete.dev",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
+  githubUsername: "ayen-123",
+  githubRepo: "ayen-123",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
+
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    linkedin: "https://www.linkedin.com/in/ariellerosete/",
+    github: "https://github.com/ayen-123",
   },
+  
 };
 export { config };

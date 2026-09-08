@@ -96,30 +96,20 @@ const ProjectCard = ({ project }: { project: Project }) => {
           {/* Scrollable content */}
           <ScrollArea className="flex-1" type="always" data-lenis-prevent>
             <div className="px-8 py-8">
-              {/* Tech stack */}
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.1 }}
-                className="flex flex-col md:flex-row gap-6 md:gap-10 mb-10"
-              >
-                {project.skills.frontend?.length > 0 && (
-                  <div className="flex flex-col items-center md:items-start gap-2">
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-medium">
-                      Frontend
-                    </span>
-                    <FloatingDock items={project.skills.frontend} />
-                  </div>
-                )}
-                {project.skills.backend?.length > 0 && (
-                  <div className="flex flex-col items-center md:items-start gap-2">
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-medium">
-                      Backend
-                    </span>
-                    <FloatingDock items={project.skills.backend} />
-                  </div>
-                )}
-              </motion.div>
+              {/* Tools Used */}
+              {project.skills.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 12 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: 0.1 }}
+                  className="flex flex-col items-center md:items-start gap-2 mb-10"
+                >
+                  <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-medium">
+                    Tools Used
+                  </span>
+                  <FloatingDock items={project.skills} />
+                </motion.div>
+              )}
 
               {/* Divider */}
               <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-10" />

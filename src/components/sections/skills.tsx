@@ -28,8 +28,8 @@ const SkillsSection = () => {
       >
         <SectionHeader
           id="skills"
-          title="Tech Stack"
-          desc="Tools I build with"
+          title="Skills"
+          desc="Tools and Applications I build with"
           className="static mb-14"
         />
         <ul className="mx-auto grid w-full max-w-5xl grid-cols-2 gap-3 px-4 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5">
@@ -79,7 +79,7 @@ const SkillsSection = () => {
       id="skills"
       className="w-full h-screen md:h-[150dvh] pointer-events-none"
     >
-      <SectionHeader id="skills" title="Tech Stack" desc="(hint: press a key)" />
+      <SectionHeader id="skills" title="Skills" desc="Tools and Applications I build with (hint: press a key)" />
     </SectionWrapper>
   );
 };

@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import SocialMediaButtons from "../social/social-media-icons";
 import { config } from "@/data/config";
 
-async function CopyrightYear() {
+function CopyrightYear() {
   const year = new Date().getFullYear();
   return <>{year}</>;
 }
@@ -21,21 +21,6 @@ function Footer() {
         {config.author}. All rights reserved.
       </p>
       <SocialMediaButtons />
-      <nav className="flex gap-4 sm:gap-6 z-10">
-        {footer.map((link, index) => {
-          const { title, href } = link;
-
-          return (
-            <Link
-              className="text-xs underline-offset-4 hover:underline"
-              href={href}
-              key={`l_${index}`}
-            >
-              <Button variant={"link"}>{title}</Button>
-            </Link>
-          );
-        })}
-      </nav>
     </footer>
   );
 }
