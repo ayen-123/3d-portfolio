@@ -267,9 +267,9 @@ export const EXPERIENCE: Experience[] = [
     title: "Process Engineer",
     company: "Texas Instruments",
     description: [
-      "Worked on projects utilizing Excel Macro and VBA Programming, Spotfire, and PL/SQL Script.",
-      "Attended daily semiconductor manufacturing processes, including machine operations and hands-on soldering of microchips and small SMDs to circuit boards under a microscope.",
-      "Developed an automated system for the company’s product information guidesheet in manufacturing, reducing the workload of engineers and improving time efficiency and workflow.",
+      "Developed an automated system for the product information guide sheet in manufacturing using Excel. Macro/VBA and PL/SQL, reducing engineers’ workload by 10. 67 hours per week and improving workflow and time efficiency by 94%.",
+      "Used Spotfire and PL/SQL scripts to retrieve and analyze semiconductor manufacturing data for the NPI/Ramp team, supporting guide sheet key parameter population, and data-driven process monitoring and analysis.",
+      "Participated in daily semiconductor manufacturing processes, including machine operations and microscope-assisted soldering of microchips and SMDs onto circuit boards."
     ],
     skills: [
       SkillNames.SQL,
@@ -410,12 +410,12 @@ export type Education = {
 export const EDUCATION: Education[] = [
   {
     id: 1,
-    startDate: "August 2022",
-    endDate: "July 2026",
+    startDate: "July 2022",
+    endDate: "June 2026",
     degree: "B.S. in Computer Engineering",
     institution: "Ateneo de Davao University",
     description: [
-      "GRADE: 3.81 / 4.00",
+      "GRADE: 3.85 / 4.00",
 
       "HONORS: Graduated Magna Cum Laude, 3x Dean’s List, 4x President’s List, 3x Consecutive Most Outstanding Student Nominee",
 
